@@ -1,0 +1,93 @@
+body{
+    font-family: "Quicksand", sans-serif;
+    background-image: linear-gradient(100deg, #575656, #062e3f);
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15vh;
+}
+
+.heading h1{
+    color: #FFDFDB;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.form{
+    display: flex;
+    gap: 0px;
+}
+
+#myinput{
+    background-color: #181A1A;
+    border: hidden;
+    height: 6vh;
+    width: 20vw;
+    /* border-left-radius: 20px; */
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#btn{
+    background-color: #F7E2DF;
+    border: hidden;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 5vw;
+}
+
+#taskhead{
+    color: #F7E2DF;
+    margin-top: 4vh;
+    font-size: 1.25rem;
+}
+
+::placeholder {
+    text-align: center;
+  }
+
+.task{
+    background-color: #242E33;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 20px;
+    min-width: 15vw;
+    border-radius: 15px;
+}
+
+#tasklist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+input, select, textarea{
+    color: white;
+    text-align: center;
+}
+
+.taskname h3{
+    color: white;
+    font-weight: 300;
+}
+
+#addimg{
+    margin-top: 10px;
+    height: 5.5vh;
+    width: 5vw;
+}
+
+#delimg{
+    margin-top: 12px;
+    height: 4.8vh;
+    width: 5vw;
+}
